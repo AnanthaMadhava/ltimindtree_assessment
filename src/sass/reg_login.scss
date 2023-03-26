@@ -1,0 +1,28 @@
+.reg_login_container {
+    display: flex;
+    justify-content: center;
+    .reg_login {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 20px;
+        .heading {
+            text-align: center;
+            font-size: 30px;
+        }
+        div{
+          margin-bottom: 5px;  
+        }
+        .reg_log_link {
+            text-align: center;
+            margin-top: 10px;
+            a {
+                text-decoration: none;
+            }
+        }
+        .errors {
+            text-align: center;
+        }
+    }
+}

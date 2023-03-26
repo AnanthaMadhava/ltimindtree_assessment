@@ -1,0 +1,22 @@
+.create-event-container {
+    padding: 50px 200px;
+    .heading {
+        font-size: 50px;
+    }
+    .event_fields {
+        width: 100%;
+    }
+    .premium_check, .t_c_check {
+        padding-top: 10px !important;
+    }
+    .t_c_check {
+        padding-left: 32px;
+        svg {
+            margin-right: 10px;
+        }
+    }
+    .t_c {
+        display: flex;
+        align-items: center;
+    }
+}
